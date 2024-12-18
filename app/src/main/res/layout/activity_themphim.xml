@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="0dp"
+    tools:context=".Activities.Themphim">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="?attr/homeAsUpIndicator"
+                android:textSize="50px"
+                android:layout_marginLeft="20px" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Thêm phim"
+                android:textSize="100px"
+                android:layout_gravity="center"
+                android:textStyle="bold|italic"
+                android:layout_marginTop="30px" />
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="Tên phim:"
+                android:textSize="50px"
+                android:textStyle="bold"
+                android:layout_marginLeft="15dp" />
+
+            <EditText
+                android:id="@+id/editText1"
+                android:layout_width="1030px"
+                android:layout_height="40dp"
+                android:hint=""
+                android:background="@android:drawable/editbox_background"
+                android:paddingStart="8dp"
+                android:paddingEnd="8dp"
+                android:layout_marginLeft="20px"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:inputType="text" />
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="Thể loại:"
+                android:textSize="50px"
+                android:textStyle="bold"
+                android:layout_marginLeft="15dp" />
+
+            <EditText
+                android:id="@+id/editText2"
+                android:layout_width="1030px"
+                android:layout_height="40dp"
+                android:hint=""
+                android:background="@android:drawable/editbox_background"
+                android:paddingStart="8dp"
+                android:paddingEnd="8dp"
+                android:layout_marginLeft="20px"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:inputType="text" />
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="Ngày chiếu:"
+                android:textSize="50px"
+                android:textStyle="bold"
+                android:layout_marginLeft="15dp" />
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/textInputLayout1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:endIconMode="custom"
+                app:endIconDrawable="@android:drawable/ic_menu_my_calendar"
+                app:endIconContentDescription="Calendar">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/editText3"
+                    android:layout_width="1030px"
+                    android:layout_height="40dp"
+                    android:background="@android:drawable/editbox_background"
+                    android:hint=""
+                    android:paddingStart="8dp"
+                    android:paddingTop="0dp"
+                    android:paddingBottom="0dp"
+                    android:textSize="20sp"
+                    android:textColor="#000000"
+                    android:focusable="false"
+                    android:layout_marginLeft="20px" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="Thời lượng:"
+                android:textSize="50px"
+                android:textStyle="bold"
+                android:layout_marginLeft="15dp" />
+
+            <EditText
+                android:id="@+id/editText4"
+                android:layout_width="1030px"
+                android:layout_height="40dp"
+                android:hint=""
+                android:background="@android:drawable/editbox_background"
+                android:paddingStart="8dp"
+                android:paddingEnd="8dp"
+                android:layout_marginLeft="20px"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:inputType="text" />
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="Poster:"
+                android:textSize="50px"
+                android:textStyle="bold"
+                android:layout_marginLeft="15dp" />
+
+            <EditText
+                android:id="@+id/editText5"
+                android:layout_width="1030px"
+                android:layout_height="40dp"
+                android:background="@android:drawable/editbox_background"
+                android:paddingStart="8dp"
+                android:paddingEnd="8dp"
+                android:layout_marginLeft="20px"
+                android:hint=""
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:inputType="text" />
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="Tên đạo diễn:"
+                android:textSize="50px"
+                android:textStyle="bold"
+                android:layout_marginLeft="15dp" />
+
+            <EditText
+                android:id="@+id/editText6"
+                android:layout_width="1030px"
+                android:layout_height="40dp"
+                android:background="@android:drawable/editbox_background"
+                android:paddingStart="8dp"
+                android:paddingEnd="8dp"
+                android:layout_marginLeft="20px"
+                android:hint=""
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:inputType="text" />
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="Diễn viên:"
+                android:textSize="50px"
+                android:textStyle="bold"
+                android:layout_marginLeft="15dp" />
+
+            <EditText
+                android:id="@+id/editText7"
+                android:layout_width="1030px"
+                android:layout_height="40dp"
+                android:background="@android:drawable/editbox_background"
+                android:paddingStart="8dp"
+                android:paddingEnd="8dp"
+                android:layout_marginLeft="20px"
+                android:hint=""
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:inputType="text" />
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="Nội dung:"
+                android:textSize="50px"
+                android:textStyle="bold"
+                android:layout_marginLeft="15dp" />
+
+            <EditText
+                android:id="@+id/editText8"
+                android:layout_width="1030px"
+                android:layout_height="40dp"
+                android:background="@android:drawable/editbox_background"
+                android:paddingStart="8dp"
+                android:paddingEnd="8dp"
+                android:layout_marginLeft="20px"
+                android:hint=""
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:inputType="text" />
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="Quốc gia:"
+                android:textSize="50px"
+                android:textStyle="bold"
+                android:layout_marginLeft="15dp" />
+
+            <EditText
+                android:id="@+id/editText9"
+                android:layout_width="1030px"
+                android:layout_height="40dp"
+                android:background="@android:drawable/editbox_background"
+                android:paddingStart="8dp"
+                android:paddingEnd="8dp"
+                android:layout_marginLeft="20px"
+                app:passwordToggleEnabled="true"
+                android:hint=""
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:inputType="text" />
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="Giá vé:"
+                android:textSize="50px"
+                android:textStyle="bold"
+                android:layout_marginLeft="15dp" />
+
+            <EditText
+                android:id="@+id/editText10"
+                android:layout_width="1030px"
+                android:layout_height="40dp"
+                android:background="@android:drawable/editbox_background"
+                android:paddingStart="8dp"
+                android:paddingEnd="8dp"
+                android:layout_marginLeft="20px"
+                app:passwordToggleEnabled="true"
+                android:hint=""
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:inputType="text" />
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="900px"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:shape="oval"
+                android:text="Xác nhận"
+                android:textColor="#FFFFFF"
+                android:textSize="50px"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="0dp"
+    tools:context=".Activities.Quenmatkhau">
+
+    <TextView
+        android:id="@+id/back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="?attr/homeAsUpIndicator"
+        android:textSize="50px"
+        android:layout_marginLeft="20px" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Quên mật khẩu"
+        android:layout_gravity="center"
+        android:textSize="100px"
+        android:textStyle="italic|bold"
+        android:layout_marginTop="400px" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tên đăng nhập:"
+        android:textSize="50px"
+        android:textStyle="bold"
+        android:layout_marginLeft="20px"
+        android:layout_marginTop="100px" />
+
+    <EditText
+        android:id="@+id/edit1"
+        android:layout_width="1030px"
+        android:layout_height="40dp"
+        android:background="@android:drawable/editbox_background"
+        android:paddingStart="8dp"
+        android:paddingEnd="8dp"
+        android:layout_marginLeft="20px"
+        android:hint=""
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:inputType="text" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Số điện thoại:"
+        android:textSize="50px"
+        android:textStyle="bold"
+        android:layout_marginLeft="20px"
+        android:layout_marginTop="20px" />
+
+    <EditText
+        android:id="@+id/edit2"
+        android:layout_width="1030px"
+        android:layout_height="40dp"
+        android:background="@android:drawable/editbox_background"
+        android:paddingStart="8dp"
+        android:paddingEnd="8dp"
+        android:layout_marginLeft="20px"
+        android:hint=""
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:inputType="phone"
+        android:maxLength="10" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="20px"
+        android:layout_marginTop="40px">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nhập mã xác minh:"
+            android:textSize="50px"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/edit3"
+            android:layout_width="200px"
+            android:layout_height="wrap_content"
+            android:background="@android:drawable/editbox_background"
+            android:layout_marginLeft="20px"
+            android:maxLength="4" />
+
+        <TextView
+            android:id="@+id/countdownTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="40px"
+            android:text="Nhận mã xác minh"
+            android:textColor="@color/black"
+            android:layout_marginLeft="40px"
+            android:layout_centerInParent="true" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/bt"
+        android:layout_width="900px"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:shape="oval"
+        android:text="Xác nhận"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="80px"
+        android:textSize="50px"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textkhac"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Đổi mật khẩu qua cuộc gọi"
+        android:textSize="45px"
+        android:textStyle="italic"
+        android:layout_gravity="center"
+        android:layout_marginTop="40px" />
+
+</LinearLayout>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="0dp"
+    tools:context=".Activities.Xoaphim">
+
+    <TextView
+        android:id="@+id/back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="?attr/homeAsUpIndicator"
+        android:textSize="50px"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:layout_marginLeft="20px" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Xóa phim"
+        android:layout_marginTop="100px"
+        android:layout_gravity="center"
+        android:textSize="100px"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="Nhập tên phim cần xóa:"
+        android:textSize="50px"
+        android:textStyle="bold"
+        android:layout_marginTop="50px"
+        android:layout_marginLeft="15dp" />
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="1030px"
+        android:layout_height="40dp"
+        android:hint=""
+        android:background="@android:drawable/editbox_background"
+        android:paddingStart="8dp"
+        android:paddingEnd="8dp"
+        android:layout_marginLeft="20px"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:inputType="text" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="900px"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:shape="oval"
+        android:text="Xác nhận"
+        android:layout_marginTop="50px"
+        android:textColor="#FFFFFF"
+        android:textSize="50px"
+        android:textStyle="bold" />
+
+</LinearLayout>

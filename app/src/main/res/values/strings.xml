@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Android - Nhom 10</string>
+    <string name="price_format">%,d VND</string>
+</resources>

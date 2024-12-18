@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="0dp"
+    tools:context=".Activities.Dangnhap">
+
+    <TextView
+        android:id="@+id/back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="?attr/homeAsUpIndicator"
+        android:textSize="50px"
+        android:layout_marginLeft="20px" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Đăng nhập"
+        android:textSize="100px"
+        android:layout_gravity="center"
+        android:layout_marginTop="400px"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tên đăng nhập:"
+        android:textSize="50px"
+        android:textStyle="bold"
+        android:layout_marginTop="100px"
+        android:layout_marginLeft="20px" />
+
+    <EditText
+        android:id="@+id/edt1"
+        android:layout_width="1030px"
+        android:layout_height="40dp"
+        android:background="@android:drawable/editbox_background"
+        android:paddingStart="8dp"
+        android:paddingEnd="8dp"
+        android:layout_marginLeft="20px"
+        android:hint=""
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:inputType="text" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mật khẩu:"
+        android:textSize="50px"
+        android:textStyle="bold"
+        android:layout_marginLeft="20px" />
+
+    <EditText
+        android:id="@+id/edt2"
+        android:layout_width="1030px"
+        android:layout_height="40dp"
+        android:background="@android:drawable/editbox_background"
+        android:paddingStart="8dp"
+        android:paddingEnd="8dp"
+        android:layout_marginLeft="20px"
+        android:hint=""
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:inputType="text" />
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nhớ mật khẩu"
+        android:textSize="50px"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@+id/edt2"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="8dp" />
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="900px"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:shape="oval"
+        android:text="Đăng nhập"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="80px"
+        android:textSize="50px"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_margin="0dp">
+
+        <TextView
+            android:id="@+id/text1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Quên mật khẩu"
+            android:textSize="45px"
+            android:layout_marginLeft="60px"
+            android:textStyle="italic"
+            android:layout_marginTop="20px"
+            android:layout_gravity="center" />
+
+        <TextView
+            android:id="@+id/text2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bạn chưa có tài khoản?"
+            android:textSize="45px"
+            android:textStyle="italic"
+            android:layout_marginLeft="200px"
+            android:layout_marginTop="20px"
+            android:layout_gravity="center" />
+
+    </LinearLayout>
+</LinearLayout>
